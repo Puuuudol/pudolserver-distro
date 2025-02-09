@@ -1,0 +1,363 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "PudolServer-1.20.1",
+      "name": "푸돌서버",
+      "description": "PudolServer Running Minecraft 1.20.1 (Fabric v0.16.10)",
+      "icon": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/launcherIMG.png",
+      "version": "1.0.0",
+      "address": "211.55.136.76",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.10",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1387408,
+            "MD5": "239d59118dec4324672b3d9e9d75efef",
+            "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/repo/lib/net/fabricmc/fabric-loader/0.16.10/fabric-loader-0.16.10.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-fabric-0.16.10",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2859,
+                "MD5": "9c8f05d3082606e710b6d16b46d74d55",
+                "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/repo/versions/1.20.1-fabric-0.16.10/1.20.1-fabric-0.16.10.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.4+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1494834,
+                "MD5": "991ca8be2c408fe19eb64014d8a18243",
+                "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/repo/lib/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 573365,
+                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
+                "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.afoxxvi:asteorbar:1.4.6@jar",
+          "name": "AsteorBar",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1115780,
+            "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/servers/PudolServer-1.20.1/fabricmods/required/asteorbar-fabric-1.20.1-1.4.6.jar",
+            "MD5": "6ce649c5f910fed9ff97cff89a1bd602"
+          }
+        },
+        {
+          "id": "moe.caramel.chat:caramelchat:1.2.0@jar",
+          "name": "CaramelChat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 343899,
+            "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/servers/PudolServer-1.20.1/fabricmods/required/caramelChat-mc1.20.1-fabric-1.2.0.jar",
+            "MD5": "69ec9d55a7a980bc1159cc33e246d581"
+          }
+        },
+        {
+          "id": "shcm.shsupercm:citresewn:1.1.5+1.20.1@jar",
+          "name": "CIT Resewn",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 391752,
+            "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/servers/PudolServer-1.20.1/fabricmods/required/citresewn-1.1.5+1.20.1.jar",
+            "MD5": "d0d036a2aeff226687f369269524653d"
+          }
+        },
+        {
+          "id": "net.kyrptonaught:cmdkeybind:1.6.3-1.20@jar",
+          "name": "Command Macros",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 426985,
+            "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/servers/PudolServer-1.20.1/fabricmods/required/cmdkeybind-1.6.3-1.20.jar",
+            "MD5": "2045a3d636427ff54edd6d8c06def5f3"
+          }
+        },
+        {
+          "id": "me.pepperbell:continuity:3.0.0-beta.4+1.20.1@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1050571,
+            "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/servers/PudolServer-1.20.1/fabricmods/required/continuity-3.0.0-beta.4+1.20.1.jar.disabled",
+            "MD5": "847fd4abc379058a701ea16a52e22dcb"
+          }
+        },
+        {
+          "id": "generated.fabricmod:controlling:12.0.2@jar",
+          "name": "Controlling For Fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 122777,
+            "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/servers/PudolServer-1.20.1/fabricmods/required/Controlling-fabric-1.20.1-12.0.2.jar",
+            "MD5": "a225242dbf419ffa0eb1a79a503d1858"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.92.2+1.20.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2107289,
+            "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/servers/PudolServer-1.20.1/fabricmods/required/fabric-api-0.92.2+1.20.1.jar",
+            "MD5": "92c58961866741106aae126558c9d4a7"
+          }
+        },
+        {
+          "id": "fuzs.forgeconfigapiport.impl:forgeconfigapiport:8.0.0@jar",
+          "name": "Forge Config API Port",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 397198,
+            "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/servers/PudolServer-1.20.1/fabricmods/required/ForgeConfigAPIPort-v8.0.0-1.20.1-Fabric.jar",
+            "MD5": "9b680a583230400e887dc545aa974936"
+          }
+        },
+        {
+          "id": "kr.cosine.simplef3:hqsimplef3:1.0.3@jar",
+          "name": "HQSimpleF3",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 81113,
+            "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/servers/PudolServer-1.20.1/fabricmods/required/HQSimpleF3-1.0.0.jar",
+            "MD5": "0847a2a80dfd5452c40c8631a001d8eb"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:iceberg:1.1.25@jar",
+          "name": "Iceberg",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 119018,
+            "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/servers/PudolServer-1.20.1/fabricmods/required/Iceberg-1.20.1-fabric-1.1.25.jar",
+            "MD5": "063fa399d8886abc0b1b612e968b8e0b"
+          }
+        },
+        {
+          "id": "link.infra:indium:1.0.34+mc1.20.1@jar",
+          "name": "Indium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 105359,
+            "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/servers/PudolServer-1.20.1/fabricmods/required/indium-1.0.34+mc1.20.1.jar",
+            "MD5": "91f3ce08edec42ee8f6b45fd6ae0c8b3"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.2+mc1.20.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2701293,
+            "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/servers/PudolServer-1.20.1/fabricmods/required/iris-1.7.2+mc1.20.1.jar",
+            "MD5": "fde2833d321c3f09020bd456094693d3"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.10.2@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7209180,
+            "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/servers/PudolServer-1.20.1/fabricmods/required/journeymap-1.20.1-5.10.2-fabric.jar",
+            "MD5": "cd7fd0f3e25a017749806fe5d1a97004"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:legendarytooltips:1.4.5@jar",
+          "name": "Legendary Tooltips",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 63969,
+            "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/servers/PudolServer-1.20.1/fabricmods/required/LegendaryTooltips-1.20.1-fabric-1.4.5.jar",
+            "MD5": "da13b6865a45746799f4465409509a52"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:7.2.2@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 721366,
+            "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/servers/PudolServer-1.20.1/fabricmods/required/modmenu-7.2.2.jar",
+            "MD5": "2629511a2d3b141d9f2a24dc9685637e"
+          }
+        },
+        {
+          "id": "su.plo.voice:plasmovoice:2.0.10@jar",
+          "name": "Plasmo Voice",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 11379555,
+            "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/servers/PudolServer-1.20.1/fabricmods/required/plasmovoice-fabric-1.20.1-2.0.10%20(1).jar",
+            "MD5": "76a4e0ee86d577de0c53ca5913f08e0c"
+          }
+        },
+        {
+          "id": "generated.fabricmod:prism:1.0.5@jar",
+          "name": "Prism",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 57257,
+            "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/servers/PudolServer-1.20.1/fabricmods/required/Prism-1.20.1-fabric-1.0.5.jar",
+            "MD5": "2eed6d81c1b72c75646d33b1b5d9dcfe"
+          }
+        },
+        {
+          "id": "generated.fabricmod:searchables:1.0.3@jar",
+          "name": "Searchables",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 80283,
+            "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/servers/PudolServer-1.20.1/fabricmods/required/Searchables-fabric-1.20.1-1.0.3.jar",
+            "MD5": "92d987a6bc23a419a439f876fd9e4d59"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.5.11+mc1.20.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 968419,
+            "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/servers/PudolServer-1.20.1/fabricmods/required/sodium-fabric-0.5.11+mc1.20.1.jar",
+            "MD5": "9880bae748957d1cb6c4de50c8e0452a"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 4835,
+            "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/servers/PudolServer-1.20.1/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "optionsof.txt",
+          "name": "optionsof.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1418,
+            "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/servers/PudolServer-1.20.1/files/optionsof.txt",
+            "path": "optionsof.txt"
+          }
+        },
+        {
+          "id": "optionsshaders.txt",
+          "name": "optionsshaders.txt",
+          "type": "File",
+          "artifact": {
+            "size": 397,
+            "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/servers/PudolServer-1.20.1/files/optionsshaders.txt",
+            "path": "optionsshaders.txt"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.1.1.zip",
+          "name": "ComplementaryReimagined_r5.1.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 409956,
+            "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/servers/PudolServer-1.20.1/files/shaderpacks/ComplementaryReimagined_r5.1.1.zip",
+            "MD5": "36b4136593cac57d2f9aa651603b6e0f",
+            "path": "shaderpacks/ComplementaryReimagined_r5.1.1.zip"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.1.1.zip.txt",
+          "name": "ComplementaryReimagined_r5.1.1.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 75,
+            "url": "https://raw.githubusercontent.com/Puuuudol/pudolserver-distro/main/servers/PudolServer-1.20.1/files/shaderpacks/ComplementaryReimagined_r5.1.1.zip.txt",
+            "MD5": "2bff7a11cc15dedf96448874d740f96a",
+            "path": "shaderpacks/ComplementaryReimagined_r5.1.1.zip.txt"
+          }
+        }
+      ]
+    }
+  ]
+}
